@@ -24,6 +24,11 @@ body {
     border-radius: 0.25rem;
 }
 
+body, p, li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+  }
+
 .center-container {
     display: flex;
     flex-direction: column;
