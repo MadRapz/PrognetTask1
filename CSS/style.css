@@ -169,7 +169,6 @@ form button[type="submit"]:hover {
     background-color: #0056b3;
 }
 
-/* Tambahkan CSS berikut di dalam file style.css Anda */
 .radio-group {
     display: flex;
     align-items: center;
