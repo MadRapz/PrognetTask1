@@ -5,6 +5,13 @@ body{margin-top:20px;}
 .border-0 {
     border: 0!important;
 }
+
+body {
+    background-size: cover; /* Menyesuaikan gambar dengan ukuran layar */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+    background-attachment: fixed; /* Gambar latar belakang tetap dalam posisi saat menggulir halaman */
+}
+
 .card {
     position: relative;
     display: flex;
@@ -16,6 +23,23 @@ body{margin-top:20px;}
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 0.25rem;
 }
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ini akan memastikan container mengambil setidaknya seluruh tinggi viewport (tampilan) */
+}
+
+.center-containform {
+    padding-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ini akan memastikan container mengambil setidaknya seluruh tinggi viewport (tampilan) */
+}
+
 
 .project:link, .project:visited {
     color: #fff;
