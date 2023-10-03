@@ -1,0 +1,180 @@
+body{margin-top:20px;}
+.card-style1 {
+    box-shadow: 0px 0px 10px 0px rgb(89 75 128 / 9%);
+}
+.border-0 {
+    border: 0!important;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+
+.project:link, .project:visited {
+    color: #fff;
+}
+
+
+.gmail {
+    color: #030303;
+}
+
+/* Mengatur gaya ikon Facebook */
+.social-icon-style1 .fa-facebook {
+    font-size: 30px; /* Ukuran ikon */
+    color: #1877f2; /* Warna ikon Facebook */
+    margin-right: 10px; /* Jarak antara ikon dengan ikon sebelumnya (jika ada) */
+}
+
+/*  Instagram */
+.social-icon-style1 .fa-instagram {
+    font-size: 30px; /* Ukuran ikon */
+    color: #eb4ebc; /* Warna ikon Instagram */
+    margin-right: 10px; /* Jarak antara ikon dengan ikon sebelumnya (jika ada) */
+}
+
+/*  Github */
+.social-icon-style1 .fa-github {
+    font-size: 30px; /* Ukuran ikon */
+    color: #030303; /* Warna ikon Github */
+    margin-right: 10px; /* Jarak antara ikon dengan ikon sebelumnya (jika ada) */
+}
+
+
+.photoProfile {
+    width: 315px;
+    height: 315px;
+}
+
+section {
+    padding: 120px 0;
+    overflow: hidden;
+    background: #fff;
+}
+.mb-2-3, .my-2-3 {
+    margin-bottom: 2.3rem;
+}
+
+.section-title {
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+}
+.text-primary {
+    color: #ceaa4d !important;
+}
+.text-secondary {
+    color: #15395A !important;
+}
+.font-weight-600 {
+    font-weight: 600;
+}
+.display-26 {
+    font-size: 1.3rem;
+}
+
+@media screen and (min-width: 992px){
+    .p-lg-7 {
+        padding: 4rem;
+    }
+}
+@media screen and (min-width: 768px){
+    .p-md-6 {
+        padding: 3.5rem;
+    }
+}
+@media screen and (min-width: 576px){
+    .p-sm-2-3 {
+        padding: 2.3rem;
+    }
+}
+.p-1-9 {
+    padding: 1.9rem;
+}
+
+.bg-secondary {
+    background: #15395A !important;
+}
+@media screen and (min-width: 576px){
+    .pe-sm-6, .px-sm-6 {
+        padding-right: 3.5rem;
+    }
+}
+@media screen and (min-width: 576px){
+    .ps-sm-6, .px-sm-6 {
+        padding-left: 3.5rem;
+    }
+}
+.pe-1-9, .px-1-9 {
+    padding-right: 1.9rem;
+}
+.ps-1-9, .px-1-9 {
+    padding-left: 1.9rem;
+}
+.pb-1-9, .py-1-9 {
+    padding-bottom: 1.9rem;
+}
+.pt-1-9, .py-1-9 {
+    padding-top: 1.9rem;
+}
+.mb-1-9, .my-1-9 {
+    margin-bottom: 1.9rem;
+}
+@media (min-width: 992px){
+    .d-lg-inline-block {
+        display: inline-block!important;
+    }
+}
+.rounded {
+    border-radius: 0.25rem!important;
+}
+
+
+/*formulir data diri
+
+/* Gaya untuk form input */
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form select,
+form input[type="radio"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Gaya untuk tombol "Simpan" */
+form button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Tambahkan CSS berikut di dalam file style.css Anda */
+.radio-group {
+    display: flex;
+    align-items: center;
+}
+.radio-group label {
+    margin-right: 15px;
+}
+
