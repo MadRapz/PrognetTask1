@@ -16,7 +16,7 @@
                         <div class="card-body p-1-9 p-sm-2-3 p-md-6 p-lg-7">
                                 <div class="col-lg-6 px-xl-10">
                                     <h3 class="h2 text-black mb-0">FORMULIR DATA DIRI</h3><br>
-                                    <form onsubmit="return validateForm();">
+                                    <form method="post" action="proses.php">
                                       <div class="mb-2 mb-xl-3 display-28">
                                             <label for="nama" class="display-26 text-dark me-2 font-weight-600 fw-bold">Nama:</label>
                                             <input type="text" id="nama" name="nama" required>
