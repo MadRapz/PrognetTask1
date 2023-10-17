@@ -52,6 +52,8 @@
 
                         $conn->close();
                         ?>
+                        <a href="showform.php" class="btn btn-danger">Kembali</a>
+
                     </div>
                 </div>
             </div>
