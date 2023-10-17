@@ -16,7 +16,7 @@
                         <div class="card-body p-1-9 p-sm-2-3 p-md-6 p-lg-7">
                                 <div class="col-lg-6 px-xl-10">
                                     <h3 class="h2 text-black mb-0">FORMULIR DATA DIRI</h3><br>
-                                    <form method="post" action="proses.php">
+                                    <form method="post" action="databaseform/proses.php">
                                       <div class="mb-2 mb-xl-3 display-28">
                                             <label for="nama" class="display-26 text-dark me-2 font-weight-600 fw-bold">Nama:</label>
                                             <input type="text" id="nama" name="nama" required>
@@ -31,6 +31,8 @@
                                           <label for="mahasiswa">Mahasiswa</label>
                                           <input type="radio" id="bekerja" name="status" value="Bekerja">
                                           <label for="bekerja">Bekerja</label>
+                                          <input type="radio" id="kuliah-&-bekerja" name="status" value="Kuliah & Bekerja">
+                                          <label for="kuliah-&-bekerja">Kuliah & Bekerja</label>
                                           <input type="radio" id="tidak-kuliah-bekerja" name="status" value="Tidak Kuliah/Bekerja">
                                           <label for="tidak-kuliah-bekerja">Tidak Kuliah/Bekerja</label>
                                       </div>
@@ -64,6 +66,7 @@
                                         </div>
                                         <div class="mt-3">
                                             <button type="submit" class="btn btn-primary" target="_blank">Simpan</button>
+                                            <type= button><a href="index.html" class="btn btn-danger">Kembali</a>
                                         </div>
                                     </form>
                                 </div>
